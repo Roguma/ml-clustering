@@ -6,7 +6,10 @@
 In autonomous exploration, **frontier points** mark the boundary between known and unknown space in a robot's map.  
 Selecting observation points (where the robot should move next) often involves **clustering** these frontiers into representative groups.
 
-In this assignment, you will apply **off-the-shelf clustering algorithms** to identify meaningful frontier clusters, and compare their performance to a provided **custom clustering implementation**.
+In this assignment, you will apply **off-the-shelf (OTS) clustering algorithms** to identify meaningful frontier clusters, and compare their performance to a provided **original clustering implementation**.
+
+Keep in mind, the original clustering works directly with the native Robot Operating System (ROS) data formats, while the OTS solutions require numpy structured data. 
+The conversion has been provided for local evaluation.
 
 ---
 
